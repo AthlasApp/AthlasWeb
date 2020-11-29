@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'AthlasWeb';
+
+  scrollToBottom() {
+    window.scrollTo(0,document.body.scrollHeight);
+  }
 }
